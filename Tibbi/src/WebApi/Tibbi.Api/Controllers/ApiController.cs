@@ -27,7 +27,7 @@ namespace Tibbi.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(CreateRegistrationCommand command)
+        public async Task<IActionResult> Post([FromForm] CreateRegistrationCommand command)
         {
             return Ok(await mediator.Send(command));
         }

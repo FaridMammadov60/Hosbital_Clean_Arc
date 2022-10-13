@@ -14,7 +14,8 @@ namespace Application.Mapping
             CreateMap<Registration, CreateRegistrationCommand>().ReverseMap();
 
             CreateMap<RegistrationInfo, RegistrationReturnDto>().ReverseMap();
-            CreateMap<RegistrationInfo, RegistrationCreateDto>().ReverseMap();
+            CreateMap<RegistrationInfo, RegistrationCreateDto>().ReverseMap()
+                .ForMember(d => d.photo, map => map.MapFrom(s => "https://localhost:44369/" + s.Image));
             CreateMap<RegistrationInfo, CreateRegistrationCommand>().ReverseMap();
 
             CreateMap<RegistrationCreateDto, CreateRegistrationCommand>().ReverseMap();

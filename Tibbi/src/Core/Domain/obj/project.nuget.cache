@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "yVITiv8uIH2Hh8r/KwCSIZ3UblbSnr6Zbp7x5glpHmibcye+qa9j6F/7DSBp8isfhdGiMglB6CXkOcLmec9ZQg==",
+  "dgSpecHash": "AAQAaR38HsaxNaPaoJXNIVQYwovaHseZdJ673+6OkfSO5RoVYM4uszH5eTHEb72MxSZze1qO/0yLjNTV/BAeZQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\farid\\Desktop\\Task\\Hosbital_Clean_Arc\\Tibbi\\src\\Core\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\farid\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\farid\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\farid\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\farid\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\farid\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\farid\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

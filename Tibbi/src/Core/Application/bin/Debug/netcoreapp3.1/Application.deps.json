@@ -147,6 +147,7 @@
       },
       "Domain/1.0.0": {
         "dependencies": {
+          "FluentValidation.AspNetCore": "11.2.2",
           "MediatR": "11.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0"
         },

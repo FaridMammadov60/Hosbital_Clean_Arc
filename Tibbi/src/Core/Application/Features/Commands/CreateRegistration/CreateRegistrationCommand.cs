@@ -4,6 +4,7 @@ using Application.Wrappers;
 using AutoMapper;
 using Domain.Entities;
 using MediatR;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Text;
 using System.Threading;
@@ -21,7 +22,7 @@ namespace Application.Features.Commands.CreateRegistration
         public int CarId { get; set; }
         public int DiagnosId { get; set; }
         public int CallResultId { get; set; }
-        public string photo { get; set; }
+        public IFormFile Image { get; set; }
         public bool IsHospitalization { get; set; }       
 
 

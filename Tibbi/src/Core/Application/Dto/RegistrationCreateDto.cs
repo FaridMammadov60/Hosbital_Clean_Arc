@@ -1,4 +1,5 @@
 ﻿using FluentValidation;
+using Microsoft.AspNetCore.Http;
 using System;
 
 namespace Application.Dto
@@ -18,7 +19,7 @@ namespace Application.Dto
         public int DiagnosId { get; set; }
 
         public int CallResultId { get; set; }
-        public string photo { get; set; }
+        public IFormFile Image { get; set; }
         public bool IsHospitalization { get; set; }
         public int RegistrationId { get; set; }
     }
