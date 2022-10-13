@@ -23,7 +23,7 @@ namespace Tibbi.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMediatR(typeof(Startup));
-           
+
             //services.AddEndpointsApiExplorer();
             services.AddAutoMapper(opt =>
             {

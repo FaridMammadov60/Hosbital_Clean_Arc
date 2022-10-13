@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Persistance.Migrations
 {
-    public partial class Initialfd : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -165,7 +165,8 @@ namespace Persistance.Migrations
                 values: new object[,]
                 {
                     { 1, "Mercedes", new DateTime(2008, 6, 15, 0, 0, 0, 0, DateTimeKind.Unspecified), "10-MM-100" },
-                    { 2, "Ford", new DateTime(2008, 6, 15, 0, 0, 0, 0, DateTimeKind.Unspecified), "10-FF-100" }
+                    { 2, "Ford", new DateTime(2008, 6, 15, 0, 0, 0, 0, DateTimeKind.Unspecified), "10-FF-100" },
+                    { 3, "BMW", new DateTime(2009, 6, 15, 0, 0, 0, 0, DateTimeKind.Unspecified), "10-TT-100" }
                 });
 
             migrationBuilder.InsertData(

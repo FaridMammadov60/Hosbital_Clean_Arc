@@ -12,6 +12,7 @@ namespace Persistance
         {
             servicecollection.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(@"Server=.\DB;Database=Ambulance;Trusted_Connection=True;MultipleActiveResultSets=true"));
             servicecollection.AddTransient<IRegistrationRepository, RegistrationRepository>();
+            servicecollection.AddTransient<IRegistrationInfoRepository, RegistrationInfoRepository>();
         }
     }
 }

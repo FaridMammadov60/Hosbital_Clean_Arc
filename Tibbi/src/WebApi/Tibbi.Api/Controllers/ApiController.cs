@@ -3,7 +3,6 @@ using Application.Features.Queries.GetAllRegistration;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace Tibbi.Api.Controllers
 {
@@ -28,10 +27,12 @@ namespace Tibbi.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult>Post(CreateRegistrationCommand command)
+        public async Task<IActionResult> Post(CreateRegistrationCommand command)
         {
             return Ok(await mediator.Send(command));
         }
+
+
 
     }
 }

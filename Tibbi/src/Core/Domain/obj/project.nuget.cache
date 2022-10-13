@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sz1VY0+RXWichWyr0yFLK202AwRTK6A/JP2e8IlP8XxqbQS99Th1jUWR+OCiP/x258LGwi+5/etbEiIOqhORfQ==",
+  "dgSpecHash": "yVITiv8uIH2Hh8r/KwCSIZ3UblbSnr6Zbp7x5glpHmibcye+qa9j6F/7DSBp8isfhdGiMglB6CXkOcLmec9ZQg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\farid\\Desktop\\Task\\Tibbi\\src\\Core\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\farid\\Desktop\\Task\\Hosbital_Clean_Arc\\Tibbi\\src\\Core\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\farid\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\farid\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

@@ -85,6 +85,13 @@ namespace Persistance.Migrations
                             Brand = "Ford",
                             InsertDate = new DateTime(2008, 6, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             LicensePlate = "10-FF-100"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Brand = "BMW",
+                            InsertDate = new DateTime(2009, 6, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            LicensePlate = "10-TT-100"
                         });
                 });
 

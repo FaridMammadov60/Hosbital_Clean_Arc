@@ -24,7 +24,8 @@ namespace Persistance.Data
         {
             modelBuilder.Entity<Car>().HasData(
                 new Car() { Id = 1, Brand = "Mercedes", InsertDate = DateTime.Parse("6/15/2008 "), LicensePlate = "10-MM-100" },
-                new Car() { Id = 2, Brand = "Ford", InsertDate = DateTime.Parse("6/15/2008 "), LicensePlate = "10-FF-100" });
+                new Car() { Id = 2, Brand = "Ford", InsertDate = DateTime.Parse("6/15/2008 "), LicensePlate = "10-FF-100" },
+                new Car() { Id = 3, Brand = "BMW", InsertDate = DateTime.Parse("6/15/2009 "), LicensePlate = "10-TT-100" });
 
 
             modelBuilder.Entity<MedicalWorker>().HasData(

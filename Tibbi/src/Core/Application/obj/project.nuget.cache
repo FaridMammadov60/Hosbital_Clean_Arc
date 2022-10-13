@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "zP1q1dXq12+dekOn2BPvHqv0Sdo+pwpqve+6HWqWkGtuksfDAlnGf+wHfaF5iPLuDAf34Qb77M7CrWrwBzu5UQ==",
+  "dgSpecHash": "dHffrtS9UKndPob+1uxWxptlrg6LhdAj1j+Zul4sJvFZBNfwocErQh4/HiEk4aVj2GFzPiNsAfIm0VnjVSDmtg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\farid\\Desktop\\Task\\Tibbi\\src\\Core\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\farid\\Desktop\\Task\\Hosbital_Clean_Arc\\Tibbi\\src\\Core\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\farid\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\farid\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\farid\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
+    "C:\\Users\\farid\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\farid\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.2\\fluentvalidation.dependencyinjectionextensions.11.2.2.nupkg.sha512",
     "C:\\Users\\farid\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\farid\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\farid\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
