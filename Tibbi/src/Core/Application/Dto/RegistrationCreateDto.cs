@@ -30,7 +30,7 @@ namespace Application.Dto
         {
             RuleFor(c => c.Name).Empty().WithMessage("bosh olmaz").MaximumLength(100).WithMessage("100den cox ola bilmez");
             RuleFor(c => c.Surname).Empty().WithMessage("bosh olmaz").MaximumLength(100).WithMessage("100den cox ola bilmez");
-            RuleFor(c => c.Pin).Length(7).WithMessage("Pin 7 herfli olmalidi");
+            RuleFor(c => c.Pin).MinimumLength(7).WithMessage("Pin 7 herfli olmalidi");
         }
 
 
